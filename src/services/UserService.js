@@ -1,7 +1,6 @@
 import User from "../models/User";
 import generateId from "../helpers/generateId";
-import { userSubject
-} from "../observators/userObservator";
+import { userSubject } from "../observators/userObservator";
 
 export default class UserService {
 	users;
