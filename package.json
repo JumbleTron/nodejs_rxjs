@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_rxjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production rollup -c",
+    "start": "node app.js",
+    "start:dev": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-run": "^3.0.1",
+    "dotenv": "^16.3.1",
+    "rollup": "^3.29.3"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  }
+}
